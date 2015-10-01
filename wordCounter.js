@@ -14,7 +14,7 @@ function wordCounter() {
   } else {
     setTimeout(function () {
       wordCounter();    
-    }, 100);
+    }, 1000);
   }
 };
 
@@ -27,7 +27,7 @@ function nextAsset() {
   
   setTimeout(function () {
     wordCounter();
-  }, 100);
+  }, 1000);
   
 };
 
